@@ -1,0 +1,74 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+h1 {
+  padding: 20px;
+}
+.left {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 25px;
+}
+.right {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 25px;
+}
+.left {
+  left: 0;
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/carbon-fiber-shelby-mustang-1600685276.jpg?crop=0.9988636363636364xw:1xh;center,top&resize=480:*');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.right {
+  right: 0;
+  background-color: burlywood;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.custom button{
+  background-color: #434343;
+  display: inline-block;
+  border: none;
+  color: white;
+  margin-top: 2%;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom button:hover{
+    background: burlywood;
+    color: black;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}

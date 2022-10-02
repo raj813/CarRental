@@ -1,0 +1,41 @@
+.header {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-top: 4rem;
+  color: black;
+}
+
+.subHeader {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: black;
+}
+
+.text {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.text:hover {
+  border: 2px solid blue;
+}
+
+.invalid {
+  color: red;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-top: 1rem;
+  color: black;
+}
+
+.button:hover {
+  background-color: rgb(126, 212, 126);
+}
